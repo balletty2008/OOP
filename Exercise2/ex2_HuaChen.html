@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            #target {
+                background-color: green;
+                color: white;
+            }
+
+            .product {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .product > img {
+                width: 200px
+            }                 
+            
+        </style>
+    </head>
+    <boday>
+        <h1>Welcome to my notebook store!</h1>
+
+        <div id="target">
+            This is div and our target for modifications.
+            <div class="product">
+                <div>Retro Notebook Diary Notepad</div>
+                <img src=https://ae01.alicdn.com/kf/Sdbacbe2dd6cc429ea02f3ada75159fd6Z/Retro-Notebook-Diary-Notepad-Literature-PU-Leather-Note-Book-Stationery-Gifts-Traveler-Journal-Planners-Office-School.jpg_220x220xz.jpg_.webp />
+                <div>£0.01</div>
+                </br>
+            </div>
+
+            <div class="product">
+                <div>2022 Fitness Planner 90 Days Wellness Journal</div>
+                <img src=https://ae01.alicdn.com/kf/S960011e4a9c64211bd3dd821cb924c5cb/2022-Fitness-Planner-90-Days-Wellness-Journal-Daily-Agenda-Exercise-Weight-Loss-Lifestyle-Nutrition-Workout-Notebook.png_220x220xz.png_.webp />
+                <div>£0.02</div>
+                </br>
+            </div>
+            
+            <div class="product">
+                <div>A6/A5 Notebooks And Journals</div>
+                <img src=https://ae01.alicdn.com/kf/Seb660864738a4686865709606ec6b998l/A6-A5-Notebooks-And-Journals-Kawaii-Notepads-Diary-Agenda-2021-Weekly-Planner-Writing-Paper-For-Students.jpg_220x220xz.jpg_.webp />
+                <div>£0.01</div>
+                </br>
+            </div>
+
+            <div class="product">
+                <div>Chinese Stijl Blauwe Roos Kleur Dagboek Note Book</div>
+                <img src=https://ae01.alicdn.com/kf/Hbfef986b9c1b458185bf36fd2f830d19J/Chinese-Stijl-Blauwe-Roos-Kleur-Dagboek-Note-Book-Kwastje-Briefpapier-Retro-Bloem-Sketchbook-Journal-Lege-Notebook.jpg_220x220xz.jpg_.webp />
+                <div>£0.01</div>
+                </br>
+            </div>
+
+            <div class="product">
+                <div>2022 Bullet Planner Dotted Notebook</div>
+                <img src=https://ae01.alicdn.com/kf/Hc8de2169d18a40dfa3154375bf3a954cf/2022-Bullet-Planner-Dotted-Notebook-Dot-Grid-Journal-to-Increase-Productivity-Passion-Purpose-Happiness.jpg_Q90.jpg_.webp />
+                <div>£17.24</div>
+                </br>
+            </div>
+
+            <div class="product">
+                <div>Chinese Stijl Blauwe Roos Kleur Dagboek Note Book</div>
+                <img src=https://ae01.alicdn.com/kf/Hbfef986b9c1b458185bf36fd2f830d19J/Chinese-Stijl-Blauwe-Roos-Kleur-Dagboek-Note-Book-Kwastje-Briefpapier-Retro-Bloem-Sketchbook-Journal-Lege-Notebook.jpg_220x220xz.jpg_.webp />
+                <div>£0.01</div>
+                </br>
+            </div>
+
+            <div class="product">
+                <div>Chinese Stijl Blauwe Roos Kleur Dagboek Note Book</div>
+                <img src=https://ae01.alicdn.com/kf/Hbfef986b9c1b458185bf36fd2f830d19J/Chinese-Stijl-Blauwe-Roos-Kleur-Dagboek-Note-Book-Kwastje-Briefpapier-Retro-Bloem-Sketchbook-Journal-Lege-Notebook.jpg_220x220xz.jpg_.webp />
+                <div>£0.01</div>
+                </br>
+            </div>
+
+            <div class="product">
+                <div>Chinese Stijl Blauwe Roos Kleur Dagboek Note Book</div>
+                <img src=https://ae01.alicdn.com/kf/Hbfef986b9c1b458185bf36fd2f830d19J/Chinese-Stijl-Blauwe-Roos-Kleur-Dagboek-Note-Book-Kwastje-Briefpapier-Retro-Bloem-Sketchbook-Journal-Lege-Notebook.jpg_220x220xz.jpg_.webp />
+                <div>£0.01</div>
+                </br>
+            </div>
+            
+
+        </div>
+
+        <script>
+            console.log("Hello");
+            const targetElement = document.getElementById("target");
+            console.log(targetElement);
+            targetElement.style.border = "10px solid pink";
+            
+            targetElement.children[1].children[2].innerText = "£0.01";
+            targetElement.children[1].children[2].style.fontSize = "30px";
+        </script>
+    </boday>
+</html>
